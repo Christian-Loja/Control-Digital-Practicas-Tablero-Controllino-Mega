@@ -7,7 +7,7 @@ Este repositorio presenta los códigos desarrollados como solución a las práct
 ### 🔧 Práctica 1
 - **Código**: [Practica1.ino](/Practica%201/Practica1.ino)
 - **Video demostrativo**: [P1.mp4](/Practica%201/P1.mp4) **-->** Muestra la secuencia programada para el encendido de los LEDs.
-
+https://github.com/user-attachments/assets/b3eb3eb0-7d70-45d3-8084-0a8f7e737347
 ### 🔧 Práctica 3
 - **Código**: [Practica3.ino](/Practica%203/Practica3.ino)
 - **Fotos**:
