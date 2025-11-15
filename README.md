@@ -5,17 +5,21 @@ Este repositorio presenta los códigos desarrollados como solución a las práct
 ## 📋 Prácticas Incluidas
 
 ### 🔧 Práctica 1
-- **Código**: [Ver código de la Práctica 1](/Practica 1/Practica1.ino)
-- **Video demostrativo**: [Ver video de la Práctica 1](/Practica 1/P1.mp4)
+- **Código**: [Practica1.ino](/Practica%201/Practica1.ino)
+- **Video demostrativo**: [P1.mp4](/Practica%201/P1.mp4)
 
 ### 🔧 Práctica 3
-- **Código**: [Ver código de la Práctica 3](/Practica 3/Practica3.ino)
-- **Fotos**: [Ver fotos de la Práctica 3](/Practica 3/)
+- **Código**: [Practica3.ino](/Practica%203/Practica3.ino)
+- **Fotos**:
+  - [onon.jpeg](/Practica%203/onon.jpeg)
+  - [onoff.jpeg](/Practica%203/onoff.jpeg)
+  - [offon.jpeg](/Practica%203/offon.jpeg)
 
 ### 🔧 Práctica 4
-- **Código**: [Ver código de la Práctica 4](/Practica 4/Practica4.ino)
-- **Video demostrativo 1**: [Ver primer video de la Práctica 4](/Practica 4/PID_P4.mp4)
-- **Video demostrativo 2**: [Ver segundo video de la Práctica 4](/Practica 4/PID_P4_2.mp4)
+- **Código**: [Practica4.ino](/Practica%204/Practica4.ino)
+- **Videos demostrativos**:
+  - [PID_P4.mp4](/Practica%204/PID_P4.mp4)
+  - [PID_P4_2.mp4](/Practica%204/PID_P4_2.mp4)
 
 ## 🛠️ Requisitos
 - Tablero Controllino Mega
