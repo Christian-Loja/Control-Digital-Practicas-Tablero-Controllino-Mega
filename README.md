@@ -18,8 +18,8 @@ Este repositorio presenta los códigos desarrollados como solución a las práct
 ### 🔧 Práctica 4
 - **Código**: [Practica4.ino](/Practica%204/Practica4.ino)
 - **Videos demostrativos**:
-  - [PID_P4.mp4](/Practica%204/PID_P4.mp4)   **-->** Muestra el funcionamiento del controlador PID.
-  - [PID_P4_2.mp4](/Practica%204/PID_P4_2.mp4) **-->** Muestra el funcionamiento del controlador PID.
+  - [PID_P4.mp4](https://github.com/user-attachments/assets/a7b35f55-4b8e-4b4b-b7cd-688e330afb56)   **-->** Muestra el funcionamiento del controlador PID.
+  - [PID_P4_2.mp4](https://github.com/user-attachments/assets/d568767d-0840-4e6e-925a-068ffb80573b) **-->** Muestra el funcionamiento del controlador PID.
 
 
 ## 🛠️ Requisitos de cada Práctica
