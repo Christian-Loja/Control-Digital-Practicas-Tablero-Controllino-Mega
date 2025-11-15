@@ -21,5 +21,3 @@ Este repositorio presenta los códigos desarrollados como solución a las práct
 - Tablero Controllino Mega
 - Arduino IDE o equivalente
 - Componentes electrónicos según cada práctica
-
-## 📁 Estructura del Repositorio
