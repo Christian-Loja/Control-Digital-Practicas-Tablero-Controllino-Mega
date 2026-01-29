@@ -96,9 +96,9 @@ const int ADC_VERTICAL = 758; // Valor del ADC en posición vertical
 - Pin 4 → Codificador B
 
 ### Resultados de la implementación
-✅ **Estabilidad local** mantenida alrededor del punto de equilibrio
-⚠️ **Degradación del rendimiento** para ángulos grandes (> 30°)
-🛡️ **Mecanismo de frenado de emergencia** que protege el hardware
+- ✅ **Estabilidad local** mantenida alrededor del punto de equilibrio
+- ⚠️ **Degradación del rendimiento** para ángulos grandes (> 30°)
+- 🛡️ **Mecanismo de frenado de emergencia** protege el hardware en zonas no lineales
 
 ## 🛠️ Requisitos del Proyecto
 - Arduino UNO
