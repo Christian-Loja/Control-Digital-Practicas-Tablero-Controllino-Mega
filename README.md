@@ -6,7 +6,7 @@ Este repositorio presenta el diseño, la simulación y la implementación de un 
 - **Código**: [Practica1.ino](/Practica%201/Practica1.ino)
 - **Simulación MATLAB**: [Practica1.ino](/Practica%201/Practica1.ino)
 - **Informe**: [Practica1.ino](/Practica%201/Practica1.ino)
-- **Video demostrativo**: [P1.mp4](https://github.com/user-attachments/assets/b3eb3eb0-7d70-45d3-8084-0a8f7e737347) **-->** Muestra la secuencia programada para el encendido de los LEDs.
+- **Video demostrativo**: [P1.mp4](https://github.com/user-attachments/assets/b3eb3eb0-7d70-45d3-8084-0a8f7e737347) **-->** Muestra el péndulo de Furuta en equilibrio vertical.
 
 ## 🎯 Objetivos
 | Objetivo | Descripción |
