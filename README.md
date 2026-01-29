@@ -19,7 +19,7 @@ Este repositorio presenta el diseño, la simulación y la implementación de un 
 
 ## 🔬 Metodología
 
-### 1. Modelado matemático
+### Modelado matemático
 El sistema se modeló mediante la formulación de Lagrange con los siguientes parámetros:
 
 | Parámetro | Símbolo | Valor | Unidad |
@@ -31,12 +31,12 @@ El sistema se modeló mediante la formulación de Lagrange con los siguientes pa
 | Inercia del péndulo | `J_P` | 9×10⁻⁴ | kg·m² |
 | Inercia del brazo | `J` | 0,05 | kg·m² |
 
-### 2. Linealización
+### Linealización
 Linealización alrededor del punto de equilibrio (θ = 0°) mediante aproximaciones de ángulo pequeño:
 - **sin(θ) ≈ θ**
 - **cos(θ) ≈ 1**
 
-### 3. Diseño del controlador LQR
+### Diseño del controlador LQR
 La ecuación algebraica de Riccati se resolvió con matrices de ponderación:
 
 ```matlab
@@ -49,12 +49,10 @@ R = 1 % Penaliza el esfuerzo de control
 K = [-28.6407, -5.197, -1, -0.8264]
 ```
 
-### 4. Discretización
+### Discretización
 El controlador continuo se discretizó con `T_s = 2 ms` mediante:
-
-| Método | Ganancia discretizada (K_d) | |--------|------------------------|
-| **Retención de Orden Cero (ZOH)** | [-7.1404, -1.3194, -0.4115, -0.2977] |
-| **Método Tustin** | [-7.0931, -1.3107, -0.4088, -0.2958] |
+- **Retención de Orden Cero (ZOH):** Ganancia discretizada (K_d) = [-7.1404, -1.3194, -0.4115, -0.2977]
+- **Método Tustin:** Ganancia discretizada (K_d) = [-7.0931, -1.3107, -0.4088, -0.2958]
 
 ## 💻 Implementación de Arduino
 
@@ -73,13 +71,13 @@ El controlador implementa:
 u = -K·x = -(k₁θ + k₂θ̇ + k₃φ + k₄φ̇)
 ```
 
-### 3. Pasos de calibración
+### Pasos de calibración
 1. Subir el código a Arduino
 2. Colocar el péndulo en posición vertical
 3. Registrar la lectura del ADC (se convierte en `ADC_VERTICAL`)
 4. Ajustar las constantes de calibración si es necesario
 
-### 4. Ajuste del sistema
+### Ajuste del sistema
 ```arduino
 // Parámetros clave de ajuste en el código:
 const float GAIN_SCALE = 0.75; // Factor de escala de ganancia inicial
@@ -106,3 +104,6 @@ const int ADC_VERTICAL = 758; // Valor del ADC en posición vertical
 - Arduino UNO
 - Motor Driver TB6612FNG
 - Péndulo de Furuta con Motor y Encoder
+
+## 📄 License
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
