@@ -6,7 +6,7 @@ Este repositorio presenta el diseño, la simulación y la implementación de un 
 - **Código**: [ARDUINO](/Files/Proyecto_Final.ino)
 - **Simulación MATLAB**: [MATLAB](/Files/controlador_LQR.m)
 - **Informe**: [Archivo PDF](/Files/Informe.pdf)
-- **Video demostrativo**: [Furuta_Demo.mp4](https://github.com/user-attachments/assets/b3eb3eb0-7d70-45d3-8084-0a8f7e737347) **-->** Muestra el péndulo de Furuta en equilibrio vertical.
+- **Video demostrativo**: [Furuta_Demo.mp4](/Files/Furuta_Demo.mp4) **-->** Muestra el péndulo de Furuta en equilibrio vertical.
 
 ## 🎯 Objetivos
 | Objetivo | Descripción |
